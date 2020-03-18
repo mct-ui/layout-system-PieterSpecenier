@@ -439,25 +439,202 @@ a:focus {
    No media query since this is the default in mobile first design
 */
 
-/* Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {}
-*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+    .u-1-of-2-bp1 {
+        flex-basis: calc(100% / 2) !important;
+    }
+    
+    .u-1-of-3-bp1 {
+        flex-basis: calc(100%/3) !important;
+    }
+    
+    .u-2-of-3-bp1 {
+        flex-basis: calc(100%/3*2) !important;
+    }
+    
+    .u-1-of-4-bp1 {
+        flex-basis: calc(100%/4) !important;
+    }
+    
+    .u-3-of-4-bp1 {
+        flex-basis: calc(100%/4*3) !important;
+    }
+    
+    .u-1-of-5-bp1 {
+        flex-basis: calc(100%/5) !important;
+    }
+    
+    .u-2-of-5-bp1 {
+        flex-basis: calc(100%/5*2) !important;
+    }
+    
+    .u-3-of-5-bp1 {
+        flex-basis: calc(100%/5*3) !important;
+    }
+    
+    .u-4-of-5-bp1 {
+        flex-basis: calc(100%/5*4) !important;
+    }
+    
+    .u-1-of-6-bp1 {
+        flex-basis: calc(100%/6) !important;
+    }
+    
+    .u-5-of-6-bp1 {
+        flex-basis: calc(100%/6*5) !important;
+    }
+}
+
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
     .o-row--lg {
         padding: 48px 48px 0;
     }
+    .u-1-of-2-bp2 {
+        flex-basis: calc(100% / 2) !important;
+    }
+    
+    .u-1-of-3-bp2 {
+        flex-basis: calc(100%/3) !important;
+    }
+    
+    .u-2-of-3-bp2 {
+        flex-basis: calc(100%/3*2) !important;
+    }
+    
+    .u-1-of-4-bp2 {
+        flex-basis: calc(100%/4) !important;
+    }
+    
+    .u-3-of-4-bp2 {
+        flex-basis: calc(100%/4*3) !important;
+    }
+    
+    .u-1-of-5-bp2 {
+        flex-basis: calc(100%/5) !important;
+    }
+    
+    .u-2-of-5-bp2 {
+        flex-basis: calc(100%/5*2) !important;
+    }
+    
+    .u-3-of-5-bp2 {
+        flex-basis: calc(100%/5*3) !important;
+    }
+    
+    .u-4-of-5-bp2 {
+        flex-basis: calc(100%/5*4) !important;
+    }
+    
+    .u-1-of-6-bp2 {
+        flex-basis: calc(100%/6) !important;
+    }
+    
+    .u-5-of-6-bp2 {
+        flex-basis: calc(100%/6*5) !important;
+    }
 }
 
 
-/* Large devices (landscape tablets, desktops, 992px and up)
-@media (min-width: 992px) {}
-*/
 
-/* Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {}
-*/
+/* Large devices (landscape tablets, desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+    .u-1-of-2-bp3 {
+        flex-basis: calc(100% / 2) !important;
+    }
+    
+    .u-1-of-3-bp3 {
+        flex-basis: calc(100%/3) !important;
+    }
+    
+    .u-2-of-3-bp3 {
+        flex-basis: calc(100%/3*2) !important;
+    }
+    
+    .u-1-of-4-bp3 {
+        flex-basis: calc(100%/4) !important;
+    }
+    
+    .u-3-of-4-bp3 {
+        flex-basis: calc(100%/4*3) !important;
+    }
+    
+    .u-1-of-5-bp3 {
+        flex-basis: calc(100%/5) !important;
+    }
+    
+    .u-2-of-5-bp3 {
+        flex-basis: calc(100%/5*2) !important;
+    }
+    
+    .u-3-of-5-bp3 {
+        flex-basis: calc(100%/5*3) !important;
+    }
+    
+    .u-4-of-5-bp3 {
+        flex-basis: calc(100%/5*4) !important;
+    }
+    
+    .u-1-of-6-bp3 {
+        flex-basis: calc(100%/6) !important;
+    }
+    
+    .u-5-of-6-bp3 {
+        flex-basis: calc(100%/6*5) !important;
+    }
+}
+
+
+/* /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .u-1-of-2-bp4 {
+        flex-basis: calc(100% / 2) !important;
+    }
+    
+    .u-1-of-3-bp4 {
+        flex-basis: calc(100%/3) !important;
+    }
+    
+    .u-2-of-3-bp4 {
+        flex-basis: calc(100%/3*2) !important;
+    }
+    
+    .u-1-of-4-bp4 {
+        flex-basis: calc(100%/4) !important;
+    }
+    
+    .u-3-of-4-bp4 {
+        flex-basis: calc(100%/4*3) !important;
+    }
+    
+    .u-1-of-5-bp4 {
+        flex-basis: calc(100%/5) !important;
+    }
+    
+    .u-2-of-5-bp4 {
+        flex-basis: calc(100%/5*2) !important;
+    }
+    
+    .u-3-of-5-bp4 {
+        flex-basis: calc(100%/5*3) !important;
+    }
+    
+    .u-4-of-5-bp4 {
+        flex-basis: calc(100%/5*4) !important;
+    }
+    
+    .u-1-of-6-bp4 {
+        flex-basis: calc(100%/6) !important;
+    }
+    
+    .u-5-of-6-bp4 {
+        flex-basis: calc(100%/6*5) !important;
+    }
+}
 
 /*
     Print styles.
