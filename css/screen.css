@@ -186,7 +186,16 @@ a:focus {
     background-color: 	#111111;
     color: #ffffff;
 }
+/*
+    Objects: Container
+    ---
+    Creates a horizontal container that sets de global max-width
+*/
 
+.o-container {
+    margin: auto;
+    width: 90em;
+}
 
 
 /*------------------------------------*\
